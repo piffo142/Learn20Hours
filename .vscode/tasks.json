@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Open Daymark",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "Start-Process '${workspaceFolder}\\index.html'"
+      ],
+      "inAgents": true
+    }
+  ]
+}
